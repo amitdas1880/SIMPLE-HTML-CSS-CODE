@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montsarrat:wght@300;400;500;700&display=swap");
+
+body{
+    font-family: "Montsarrat" , sans-serif ;
+    max-width: 50%;
+    margin: auto ;
+}
+
+.header
+{
+display: flex;
+align-items: center ;
+}
+
+.face
+{
+    width: 100px ;
+    height: 100px ;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.title{
+    flex: 1;
+    margin-left: 10px;
+}
+
+.name {
+    color: grey;
+}
+
+.coral{
+    color: coral;
+}
+.Qulification{
+    letter-spacing: 1;
+    font-size: 15;
+}
+.size{
+    font-size: 12;
+}
+
+.hrline{
+    border: 1px solid coral;
+}
+.heading
+{
+    min-width: 250px;
+    color: coral;
+    font-size: 16;
+    display: block;
+}
+
+.margin{
+    margin-top: 20px;
+
+}
+
+.type{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.duration{
+    font-size: 15px;
+    font-style: italic;
+    line-height: 30px;
+
+}
